@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    { "id": "Myriel", "group": 1 },
+    { "id": "Mlle.Baptistine", "group": 2 },
+    { "id": "Mme.Magloire", "group": 2 },
+    { "id": "CountessdeLo", "group": 2 },
+    { "id": "Geborand", "group": 2 },
+    { "id": "Champtercier", "group": 3 },
+    { "id": "Cravatte", "group": 3 },
+    { "id": "Count", "group": 3 },
+    { "id": "OldMan", "group": 3 },
+    { "id": "Labarre", "group": 3 },
+    { "id": "Valjean", "group": 4 },
+    { "id": "Marguerite", "group": 4 }
+  ],
+  "links": [
+    { "source": "Mlle.Baptistine", "target": "Myriel", "value": 10 },
+    { "source": "Mme.Magloire", "target": "Myriel", "value": 10 },
+    { "source": "CountessdeLo", "target": "Myriel", "value": 10 },
+    { "source": "Geborand", "target": "Myriel", "value": 10 },
+    { "source": "Champtercier", "target": "Mme.Magloire", "value": 3 },
+    { "source": "Cravatte", "target": "Mme.Magloire", "value": 3 },
+    { "source": "Count", "target": "CountessdeLo", "value": 3 },
+    { "source": "OldMan", "target": "Geborand", "value": 3 },
+    { "source": "Labarre", "target": "Geborand", "value": 3 },
+    { "source": "Valjean", "target": "Cravatte", "value": 1 },
+    { "source": "Marguerite", "target": "Cravatte", "value": 1 }
+  ]
+}
