@@ -9,7 +9,7 @@ const SecondChart = ({ data }) => {
             data,
             svgRef.current
         )
-    },[svgRef.current])
+    },[])
 
     return <svg ref={svgRef} />
 }

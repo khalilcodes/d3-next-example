@@ -15,7 +15,7 @@ const FirstChart = ({ data }) => {
         linkStrokeWidth: (l) => Math.sqrt(l.value),
         height: 600,
       });
-    },[svgRef.current])
+    },[])
 
     return (
         <svg ref={svgRef} style={{ background: "#ddd"}} />
